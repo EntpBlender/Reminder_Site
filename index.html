@@ -24,6 +24,13 @@
 			min-height: 400px;
 			padding: 100px 20vw;
 		}
+		header{
+			position: relative;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			padding: 50px 20vw;
+		}
 
 		.blue{
 			background: #3c31dd;
@@ -40,14 +47,41 @@
 		.dark{
 			background: #0f0f10;
 		}
+.wave {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.wave svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.wave .shape-fill {
+    fill: #202731;
+}
 	</style>
 
 </head>
 
 <body>
-<section>
+<header>
+	<h1>This is a header lmao cheese burger lmao</h1>
+</header>
+<section class="blue">
 	<h1>Nice Curves</h1>
 	<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, similique quos, autem illum expedita adipisci exercitationem unde, repellendus explicabo obcaecati qui laboriosam? Aliquid nesciunt rem enim cumque animi deserunt odit!</p>
+	<div class="wave">
+		<svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+			<path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+		</svg>
+	</div>
 </section>
 <section>
 	<h1>Nice Curves</h1>
