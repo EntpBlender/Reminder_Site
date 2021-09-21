@@ -55,3 +55,9 @@ body{
     fill: #202731;
 }
 
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #0f0f10;
+  color: white;
+}
